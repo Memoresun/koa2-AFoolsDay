@@ -1,0 +1,12 @@
+body {
+  padding-top: 80px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.btn-right{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.btn-f-right{
+  float: right;
+  margin-right: 15px;
+}

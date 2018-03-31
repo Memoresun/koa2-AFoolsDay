@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    div.row
+        div.col-lg-12
+            form.form-horizontal#form
+                div.form-group
+                    label.col-sm-2.control-label 商品名称
+                    div.col-sm-10
+                        input.form-control(type="text" name="gname")        
+                div.form-group
+                    label.col-sm-2.control-label 商品库存
+                    div.col-sm-10
+                        input.form-control(type="text" name="gstock")
+                div.form-group
+                    label.col-sm-2.control-label 商品价格
+                    div.col-sm-10
+                        input.form-control(type="text" name="gprice")
+                div.form-group
+                    button.btn.btn-primary.btn-f-right#submit(type="button") 发布
+    script(src="/javascripts/p.goodsadd.js")                  

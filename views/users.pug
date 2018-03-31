@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  div.row
+    div.col-lg-12
+      table.table.table-bordered
+        thead
+          tr
+            th ID
+            th openId
+            th 用户
+            th 头像
+        tbody
+        each item in users
+          tr
+            td= item.id
+            td wx_123
+            td= item.name
+            td 123123123
+

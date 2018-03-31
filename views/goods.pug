@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div.row
+    div.col-lg-12
+      div.btn-right
+        a.btn.btn-default(href="/goods/new" role="button") New
+  div.row
+    div.col-lg-12
+      table.table.table-bordered
+        thead
+          tr
+            th Gid
+            th 商品名称
+            th 商品数量
+            th 商品价格
+        tbody
+        each item in goodsList
+          tr
+            td= item.id
+            td= item.gname
+            td= item.gstock
+            td= item.gprice
